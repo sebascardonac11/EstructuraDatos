@@ -11,14 +11,14 @@ package com.mycompany.estructuradatos;
 public class Ejemplo1 {
 
     public static void main(String[] args) {
-       int[] Vector = {8,6,7,2,1,8,6,8,7,1,12};
-       int Pos_May=0;
+       int[] Vector = {81,6,7,2,1,8,6,8,7,1,12};
+       int NMayor=0;
         for (int i = 0; i < Vector.length; i++) {
-            if (Pos_May < Vector[i]) {
-                Pos_May = Vector[i];
+            if (NMayor < Vector[i]) {
+                NMayor = Vector[i];
             }
         }
-        System.out.println("El numero mayor es: "+ Pos_May+".");
+        System.out.println("El numero mayor es: "+ NMayor+".");
     }
     
 }
