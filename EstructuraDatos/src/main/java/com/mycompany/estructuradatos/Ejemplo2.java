@@ -10,7 +10,6 @@ package com.mycompany.estructuradatos;
  * de la logica de la programación.
  */
 public class Ejemplo2 {
-
     public static void main(String[] args) {
         int[][] Matriz = {
             {10,32,-61,24,19 ,66},
@@ -28,5 +27,4 @@ public class Ejemplo2 {
         }
         System.out.println("El numero mayor es: " + NMayor + ".");
     }
-
 }
